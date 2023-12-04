@@ -32,9 +32,9 @@ import (
 	theme "github.com/purpleclay/lipgloss-theme"
 )
 
-// FooterResizedMsg is a message that is sent when the footer has resized due to
+// ResizedMsg is a message that is sent when the footer has resized due to
 // the help menu expanding and collapsing
-type FooterResizedMsg struct{}
+type ResizedMsg struct{}
 
 var (
 	toggle = theme.H2.
@@ -55,7 +55,6 @@ type Model struct {
 	barWidth int
 	barMsg   string
 	expanded bool
-	height   int
 	help     help.Model
 	keymap   help.KeyMap
 	width    int
@@ -87,7 +86,7 @@ func (m *Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	case tea.KeyMsg:
 		if msg.String() == "?" {
 			m.expanded = !m.expanded
-			cmd = func() tea.Msg { return FooterResizedMsg{} }
+			cmd = func() tea.Msg { return ResizedMsg{} }
 		}
 	}
 

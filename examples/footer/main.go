@@ -86,7 +86,7 @@ func (model) Init() tea.Cmd {
 
 func (m model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 	switch msg := msg.(type) {
-	case footer.FooterResizedMsg:
+	case footer.ResizedMsg:
 		m.fillHeight = m.height - m.footer.Height()
 	case tea.WindowSizeMsg:
 		m.height = msg.Height
