@@ -8,4 +8,4 @@ A collection of TUI components that can be used to create a Bubble Tea TUI 🫧
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](/LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/purpleclay/bubbles?style=flat-square)](https://goreportcard.com/report/github.com/purpleclay/bubbles)
 [![Go Version](https://img.shields.io/github/go-mod/go-version/purpleclay/bubbles.svg?style=flat-square)](go.mod)
-[![DeepSource](https://app.deepsource.com/gh/purpleclay/bubbles.svg/?label=active+issues&show_trend=true&token=k-83lJvoILh_8GctZKOoRPaz)](https://app.deepsource.com/gh/purpleclay/bubbles/)
+[![DeepSource](https://app.deepsource.com/gh/purpleclay/bubbles.svg/?label=active+issues&show_trend=false&token=k-83lJvoILh_8GctZKOoRPaz)](https://app.deepsource.com/gh/purpleclay/bubbles/)
