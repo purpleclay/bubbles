@@ -20,7 +20,3 @@
 # Go workspace files
 go.work
 go.work.sum
-
-# Example binaries
-footer
-header
